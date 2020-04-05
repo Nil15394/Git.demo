@@ -10,6 +10,11 @@ public class GitDemoApplication {
 		SpringApplication.run(GitDemoApplication.class, args);
 		System.out.println("Application started >>>>>>>>>>>>>");
 		printMyName();
+		printMyOccupation();
+	}
+
+	private static void printMyOccupation() {
+		System.out.println("Java Engineer");		
 	}
 
 	private static void printMyName() {
