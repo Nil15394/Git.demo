@@ -2,7 +2,11 @@ package com.nil.common;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
+/**
+ * 
+ * @author Nilesh
+ *
+ */
 public class CountMoneyNotes {
 
 	public static void countCurrency(int amount) {
